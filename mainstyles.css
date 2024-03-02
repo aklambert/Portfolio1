@@ -15,18 +15,80 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    font-family: Verdana, Calibri, 'Trebuchet MS', sans-serif;
     overflow-x: hidden;
-    background-color: var(--primary-background-color);
     color: var(--primary-color-darker);
+    background-color: var(--primary-color-darker);
+}
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5rem;
+}
+p.paragraph {
+    font-size: 1.5rem;
+    padding: 0rem 15rem 0rem 15rem;
+}
+section{
+    height: 20rem;
+    margin-bottom: 15rem;
 }
 
 /* styles by class */
-
 .nav-link {
     color: var(--primary-color-darker);
+    margin-left: 2rem;
 }
-
 .nav-link:hover, .nav-link:active {
     color: var(--secondary-color-darker2);
+}
+.spacer {
+    height: 10rem;
+}
+.image {
+    height: 30rem;
+}
+.container-fluid.gradient {
+    margin: 0;
+    background: rgb(88,105,148);
+    background: linear-gradient(0deg, rgba(88,105,148,1) 0%, rgba(255,255,255,1) 100%);
+    width: 100%;
+}
+.profile-link {
+    text-decoration: none;
+}
+
+/* styles by id */
+
+#about-me {
+    margin-top: 5rem;
+    
+}
+#projects {
+    color: var(--primary-background-color);
+    margin-bottom: 5rem;
+}
+#profiles {
+    color: var(--primary-background-color);
+}
+#freecodecamp:hover {
+    color: rgb(44, 141, 46);
+}
+
+#github:hover {
+    color: rgb(106, 7, 168);
+}
+#contact-info {
+    color: var(--primary-background-color);
+    background-color: var(--primary-color-darker);
+    border-radius: 1rem;
+}
+
+
+/* styles by style */
+.light-txt {
+    color: var(--primary-background-color);
+}
+.smaller-txt {
+    font-size: 1.5rem;
 }
