@@ -1,0 +1,20 @@
+:root {
+    --primary-color-darker: #586994;
+    --primary-color: #7D869C;
+    --primary-background-color: #d3d8e5;
+
+    --secondary-color-darker: #B4C4AE;
+    --secondary-color: #E5E8B6;
+    --secondary-color-darker2: #67815e; 
+
+    --accent-color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+    background-color: var(--primary-background-color);
+    color: var(--primary-color-darker);
+}
